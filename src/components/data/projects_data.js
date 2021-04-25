@@ -6,6 +6,9 @@ import presupuesto from '../../assets/projects_images/presupuesto.png';
 import cotizacion from '../../assets/projects_images/cotizacion.png';
 import piano  from '../../assets/projects_images/piano.png';
 import dado  from '../../assets/projects_images/dado.png';
+import wdelivery  from '../../assets/projects_images/wdelivery.png';
+import lgestionexcel from '../../assets/projects_images/lgestionexcel.jpg';
+import pwpet from '../../assets/projects_images/pwpet.jpg';
 
 const data_projects = [
     {
@@ -41,6 +44,13 @@ const data_projects = [
     },
 
     {
+        name: 'Importar informacion desde un excel a una BD',
+        image: lgestionexcel,
+        deployed_url: 'https://lgestionexcel.herokuapp.com/clientes',
+        category: ['laravel']
+    },
+
+    {
         name: 'Aplicacion de Cotizacion en php ',
         image: cotizacion,
         deployed_url: 'https://app-steven-cotizacion.herokuapp.com/',
@@ -60,6 +70,20 @@ const data_projects = [
         deployed_url: 'https://steven-app-adados.netlify.app/',
         category: ['angular']
     },
+    {
+        name: 'Delivery con Wordpress conectada a una app de pedidos',
+        image: wdelivery,
+        deployed_url: 'http://deliverysteven.great-site.net/',
+        category: ['wordpress']
+    },
+
+    {
+        name: 'Sitio web  con Nextjs',
+        image: pwpet,
+        deployed_url: 'https://rpet-4demzr9gq-tamesisblade.vercel.app/',
+        category: ['web','nextjs']
+    },
+
 
    
 
