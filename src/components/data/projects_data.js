@@ -9,6 +9,7 @@ import dado  from '../../assets/projects_images/dado.png';
 import wdelivery  from '../../assets/projects_images/wdelivery.png';
 import lgestionexcel from '../../assets/projects_images/lgestionexcel.jpg';
 import pwpet from '../../assets/projects_images/pwpet.jpg';
+import pwnumero1 from '../../assets/projects_images/pwnumero1.PNG';
 
 const data_projects = [
     {
@@ -82,6 +83,12 @@ const data_projects = [
         image: pwpet,
         deployed_url: 'https://rpet-4demzr9gq-tamesisblade.vercel.app/',
         category: ['web','nextjs']
+    },
+    {
+        name: 'Sitio web1  con Html5 css3',
+        image: pwnumero1,
+        deployed_url: 'https://tamesisblade.github.io/pwnumero1/',
+        category: ['web']
     },
 
 
